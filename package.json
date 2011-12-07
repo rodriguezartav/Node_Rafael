@@ -1,6 +1,6 @@
 {
   "author": "Roberto Rodriguez <roberto@rodriguezartav.com>",
-  "name": "rafaelify",
+  "name": "node_rafael",
   "description": "A NPM Wrapper for Rafael JS",
   "version": "0.0.1",
   "homepage": "https://github.com/rodriguezartav/NPM---Rafeel-",
@@ -10,6 +10,6 @@
   },
   "main": "./index.js",
   "engines": {
-    "node": "0.4.11"
+    "node": "0.4.7"
   }
 }
