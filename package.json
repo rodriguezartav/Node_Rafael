@@ -3,13 +3,13 @@
   "name": "node_rafael",
   "description": "A NPM Wrapper for Rafael JS",
   "version": "0.0.1",
-  "homepage": "https://github.com/rodriguezartav/NPM---Rafeel-",
+  "homepage": "http://github.com/rodriguezartav/Node_Rafael",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rodriguezartav/NPM---Rafeel-"
+    "url": "git://github.com/rodriguezartav/Node_Rafael.git"
   },
   "main": "./index.js",
   "engines": {
-    "node": "0.4.7"
+    "node": "0.4.11"
   }
 }
