@@ -2,7 +2,7 @@
   "author": "Roberto Rodriguez <roberto@rodriguezartav.com>",
   "name": "node_rafael",
   "description": "A NPM Wrapper for Rafael JS",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "http://github.com/rodriguezartav/Node_Rafael",
   "repository": {
     "type": "git",
