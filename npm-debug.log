@@ -1,34 +1,235 @@
 info it worked if it ends with ok
-verbose cli [ 'node', '/usr/bin/npm', 'publish', 'node_rafael' ]
+verbose cli [ 'node', '/usr/bin/npm', 'publish', '.' ]
 info using npm@1.0.103
 info using node@v0.4.11
 verbose config file /Users/roberto/.npmrc
 verbose config file /usr/etc/npmrc
 verbose config file /usr/lib/node_modules/npm/npmrc
-verbose publish [ 'node_rafael' ]
-verbose cache add [ 'node_rafael', null ]
-silly cache add: name, spec, args [ undefined, 'node_rafael', [ 'node_rafael', null ] ]
-verbose parsed url { pathname: 'node_rafael', href: 'node_rafael' }
-info addNamed [ 'node_rafael', '' ]
-verbose addNamed [ null, '' ]
+verbose publish [ '.' ]
+silly testEngine { author: 
+silly testEngine    { name: 'Roberto Rodriguez',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   name: 'node_rafael',
+silly testEngine   description: 'A NPM Wrapper for Rafael JS',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'http://github.com/rodriguezartav/Node_Rafael',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/rodriguezartav/Node_Rafael.git' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '0.4.11' },
+silly testEngine   _npmUser: 
+silly testEngine    { name: 'rodriguezartav',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   _id: 'node_rafael@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   scripts: {} }
+verbose caching /Users/roberto/Dropbox/proyectos/git_libs/rafaelify/package.json
+verbose loadDefaults node_rafael@0.0.1
+info prepublish node_rafael@0.0.1
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', href: '.' }
+silly testEngine { author: 
+silly testEngine    { name: 'Roberto Rodriguez',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   name: 'node_rafael',
+silly testEngine   description: 'A NPM Wrapper for Rafael JS',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'http://github.com/rodriguezartav/Node_Rafael',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/rodriguezartav/Node_Rafael.git' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '0.4.11' },
+silly testEngine   _npmUser: 
+silly testEngine    { name: 'rodriguezartav',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   _id: 'node_rafael@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/Users/roberto/Dropbox/proyectos/git_libs/rafaelify' }
+verbose caching package.json
+verbose loadDefaults node_rafael@0.0.1
+verbose pack /Users/roberto/Dropbox/proyectos/git_libs/rafaelify /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434'
+verbose mkdir done: /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434 755
+verbose mkdir'ed /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/Users/roberto/Dropbox/proyectos/git_libs' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm'
+verbose mkdir done: /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/tmp.tgz',
+silly spawning     '-o' ],
+silly spawning   '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm' ]
+silly tar err x rafaelify/.readme
+silly tar err x rafaelify/index.js
+silly tar err x rafaelify/package.json
+silly tar err x rafaelify/readme.md
+silly asyncMap in gTP /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify
+silly asyncMap in gTP /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify/.readme
+silly asyncMap in gTP /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify/index.js
+silly asyncMap in gTP /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify/package.json
+silly asyncMap in gTP /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify/readme.md
+verbose gunzed /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify
+verbose rm'ed /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package
+verbose renamed [ '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/___package.npm/rafaelify',
+verbose renamed   '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package' ]
+silly testEngine { author: 
+silly testEngine    { name: 'Roberto Rodriguez',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   name: 'node_rafael',
+silly testEngine   description: 'A NPM Wrapper for Rafael JS',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'http://github.com/rodriguezartav/Node_Rafael',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/rodriguezartav/Node_Rafael.git' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '0.4.11' },
+silly testEngine   _npmUser: 
+silly testEngine    { name: 'rodriguezartav',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   _id: 'node_rafael@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package' }
+verbose caching /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package/package.json
+verbose loadDefaults node_rafael@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package/package.json
+verbose pack /var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents/package /Users/roberto/.npm/node_rafael/0.0.1/package.tgz
+verbose mkdir'ed /Users/roberto/.npm/node_rafael/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-czvf', '-', '-T', '-' ]
+silly spawning [ 'tar',
+silly spawning   [ '-czvf', '-', '-T', '-' ],
+silly spawning   '/var/folders/18/wfprcjnx6j36291fsxrxpfb40000gn/T/npm-1323305235276/1323305235276-0.28378754551522434/contents' ]
+verbose mkdir (expected) error ENOENT, No such file or directory '/Users/roberto/.npm/node_rafael/0.0.1/___package.npm'
+verbose mkdir done: /Users/roberto/.npm/node_rafael/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/roberto/.npm/node_rafael/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+silly spawning [ 'tar',
+silly spawning   [ '-zmvxpf',
+silly spawning     '/Users/roberto/.npm/node_rafael/0.0.1/package.tgz',
+silly spawning     '-o' ],
+silly spawning   '/Users/roberto/.npm/node_rafael/0.0.1/___package.npm' ]
+silly tar err x package/.readme
+silly tar err x package/index.js
+silly tar err x package/package.json
+silly tar err x package/readme.md
+silly asyncMap in gTP /Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package
+silly asyncMap in gTP /Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package/.readme
+silly asyncMap in gTP /Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package/index.js
+silly asyncMap in gTP /Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package/readme.md
+verbose gunzed /Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package
+verbose rm'ed /Users/roberto/.npm/node_rafael/0.0.1/package
+verbose renamed [ '/Users/roberto/.npm/node_rafael/0.0.1/___package.npm/package',
+verbose renamed   '/Users/roberto/.npm/node_rafael/0.0.1/package' ]
+silly testEngine { author: 
+silly testEngine    { name: 'Roberto Rodriguez',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   name: 'node_rafael',
+silly testEngine   description: 'A NPM Wrapper for Rafael JS',
+silly testEngine   version: '0.0.1',
+silly testEngine   homepage: 'http://github.com/rodriguezartav/Node_Rafael',
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/rodriguezartav/Node_Rafael.git' },
+silly testEngine   main: './index.js',
+silly testEngine   engines: { node: '0.4.11' },
+silly testEngine   _npmUser: 
+silly testEngine    { name: 'rodriguezartav',
+silly testEngine      email: 'roberto@rodriguezartav.com' },
+silly testEngine   _id: 'node_rafael@0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.103',
+silly testEngine   _nodeVersion: 'v0.4.11',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: 
+silly testEngine    { shasum: '1c67db04ab06a3845a9f226d56743e768bc9ddc9',
+silly testEngine      tarball: 'http://registry.npmjs.org/node_rafael/-/node_rafael-0.0.1.tgz' } }
+verbose caching /Users/roberto/.npm/node_rafael/0.0.1/package/package.json
+verbose loadDefaults node_rafael@0.0.1
+silly updated sha bytes 30720
+info shasum 1c67db04ab06a3845a9f226d56743e768bc9ddc9
+info shasum /Users/roberto/.npm/node_rafael/0.0.1/package.tgz
+verbose from cache /Users/roberto/.npm/node_rafael/0.0.1/package/package.json
+verbose chmod /Users/roberto/.npm/node_rafael/0.0.1/package.tgz 644
+verbose chown [ '/Users/roberto/.npm/node_rafael/0.0.1/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly publish { author: 
+silly publish    { name: 'Roberto Rodriguez',
+silly publish      email: 'roberto@rodriguezartav.com' },
+silly publish   name: 'node_rafael',
+silly publish   description: 'A NPM Wrapper for Rafael JS',
+silly publish   version: '0.0.1',
+silly publish   homepage: 'http://github.com/rodriguezartav/Node_Rafael',
+silly publish   repository: 
+silly publish    { type: 'git',
+silly publish      url: 'git://github.com/rodriguezartav/Node_Rafael.git' },
+silly publish   main: './index.js',
+silly publish   engines: { node: '0.4.11' },
+silly publish   _npmUser: 
+silly publish    { name: 'rodriguezartav',
+silly publish      email: 'roberto@rodriguezartav.com' },
+silly publish   _id: 'node_rafael@0.0.1',
+silly publish   dependencies: {},
+silly publish   devDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.103',
+silly publish   _nodeVersion: 'v0.4.11',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: '1c67db04ab06a3845a9f226d56743e768bc9ddc9',
+silly publish      tarball: 'http://registry.npmjs.org/node_rafael/-/node_rafael-0.0.1.tgz' } }
+verbose PUT node_rafael
+verbose raw, before any munging node_rafael
+verbose url resolving [ 'https://registry.npmjs.org/', './node_rafael' ]
+verbose url resolved https://registry.npmjs.org/node_rafael
 verbose GET node_rafael
 verbose raw, before any munging node_rafael
 verbose url resolving [ 'https://registry.npmjs.org/', './node_rafael' ]
 verbose url resolved https://registry.npmjs.org/node_rafael
-silly get cb [ 404,
-silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B04)',
-silly get cb     date: 'Wed, 07 Dec 2011 22:47:34 GMT',
-silly get cb     'content-type': 'application/json',
-silly get cb     'content-length': '52',
-silly get cb     'cache-control': 'must-revalidate' } ]
-ERR! 404 'node_rafael' is not in the npm registry.
-ERR! 404 You could maybe bug the author to publish it
-ERR! 404 Note that you can also install from a tarball or folder.
+info Already published node_rafael@0.0.1
+verbose uploading bin dists []
+ERR! publish fail Cannot publish over existing version.
+ERR! publish fail Bump the 'version' field, set the --force flag, or
+ERR! publish fail     npm unpublish 'node_rafael@0.0.1'
+ERR! publish fail and try again
 ERR! 
 ERR! System Darwin 11.2.0
-ERR! command "node" "/usr/bin/npm" "publish" "node_rafael"
+ERR! command "node" "/usr/bin/npm" "publish" "."
 ERR! cwd /Users/roberto/Dropbox/proyectos/git_libs/rafaelify
 ERR! node -v v0.4.11
 ERR! npm -v 1.0.103
-ERR! code E404
+ERR! code EPUBLISHCONFLICT
 verbose exit [ 1, true ]
